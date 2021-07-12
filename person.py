@@ -1,0 +1,6 @@
+year1 = int(input("Введите год рождения человека: ")) 
+year2 = int(input("Введите текущий год: ")) 
+month = int(input("Введите месяц рождения человека: ")) 
+month2 = int(input("Введите текущий месяц: ")) 
+age = int(year2 + (month2 / 12) - (year + (month / 12))) 
+print(age)
